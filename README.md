@@ -1,0 +1,4 @@
+# Initialization
+```sh
+$ stow .
+```
