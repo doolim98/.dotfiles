@@ -19,7 +19,9 @@ precmd() {
     vcs_info
 }
 setopt prompt_subst
-PROMPT='${vcs_info_msg_0_}%F{cyan}[%3~]%f%B\$%f%b '
 
+PROMPT='%F{green}[$USER@$HOST]%f'
+PROMPT=$PROMPT'${vcs_info_msg_0_}'
+PROMPT=$PROMPT'%F{cyan}[%3~]%f%B\$%f%b '
 
 [ $TERM = "dumb" ] && unsetopt zle && PS1='$ '
