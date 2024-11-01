@@ -20,6 +20,8 @@ precmd() {
 }
 setopt prompt_subst
 
+
+
 PROMPT='%F{green}[$USER@$HOST]%f'
 PROMPT=$PROMPT'${vcs_info_msg_0_}'
 PROMPT=$PROMPT'%F{cyan}[%3~]%f%B\$%f%b '

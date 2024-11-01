@@ -1,4 +1,5 @@
 # Initialization
 ```sh
-$ stow .
+git clone 
+stow .
 ```
