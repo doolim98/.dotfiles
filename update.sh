@@ -5,5 +5,3 @@
     git pull
     ./install.sh
 )
-
-$SHELL
