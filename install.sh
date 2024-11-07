@@ -37,6 +37,6 @@ fi
 
 echo ""
 echo ""
-echo "Installation complete. Please restart your shell. \$SHELL=$SHELL"
+echo "    Installation complete. Please restart your shell. \$SHELL=$SHELL    "
 echo ""
 echo ""
