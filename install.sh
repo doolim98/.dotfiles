@@ -2,7 +2,7 @@
 
 # Install my .dotfiles repository
 if [ ! -d "$HOME/.dotfiles" ]; then
-    git clone --depth 1 git@github.com:doolim98/.dotfiles.git ~/.dotfiles
+    git clone --depth 1 https://github.com/doolim98/.dotfiles.git ~/.dotfiles
 fi
 
 
