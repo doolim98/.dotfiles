@@ -1,1 +1,1 @@
-source ~/.my.env
+source ~/.my.profile
