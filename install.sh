@@ -34,3 +34,5 @@ fi
 if ! grep -Fxq "$SNIPPET_INSTALL_MY_ZSHRC" ~/.zshrc; then
     echo "$SNIPPET_INSTALL_MY_ZSHRC" >> ~/.zshrc
 fi
+
+echo "Installation complete. Please restart your shell. \$SHELL=$SHELL"
