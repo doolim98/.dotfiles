@@ -1,0 +1,56 @@
+# Query: vscode
+
+44 results - 5 files
+
+.config/karabiner/karabiner.json:
+   64:                                             "com.microsoft.VSCode",
+   88:                                             "com.microsoft.VSCode",
+  112:                                             "com.microsoft.VSCode",
+  136:                                             "com.microsoft.VSCode",
+  160:                                             "com.microsoft.VSCode",
+  184:                                             "com.microsoft.VSCode",
+  208:                                             "com.microsoft.VSCode",
+  232:                                             "com.microsoft.VSCode",
+  256:                                             "com.microsoft.VSCode",
+  280:                                             "com.microsoft.VSCode",
+  304:                                             "com.microsoft.VSCode",
+
+.config/karabiner/automatic_backups/karabiner_20241104.json:
+   97:                                             "com.microsoft.VSCode",
+  132:                                             "com.microsoft.VSCode",
+  167:                                             "com.microsoft.VSCode",
+  202:                                             "com.microsoft.VSCode",
+  237:                                             "com.microsoft.VSCode",
+  272:                                             "com.microsoft.VSCode",
+  307:                                             "com.microsoft.VSCode",
+  342:                                             "com.microsoft.VSCode",
+  377:                                             "com.microsoft.VSCode",
+  412:                                             "com.microsoft.VSCode",
+  447:                                             "com.microsoft.VSCode",
+  482:                                             "com.microsoft.VSCode",
+
+.config/karabiner/automatic_backups/karabiner_20241105.json:
+   64:                                             "com.microsoft.VSCode",
+   88:                                             "com.microsoft.VSCode",
+  112:                                             "com.microsoft.VSCode",
+  136:                                             "com.microsoft.VSCode",
+  160:                                             "com.microsoft.VSCode",
+  184:                                             "com.microsoft.VSCode",
+  208:                                             "com.microsoft.VSCode",
+  232:                                             "com.microsoft.VSCode",
+  256:                                             "com.microsoft.VSCode",
+  280:                                             "com.microsoft.VSCode",
+  304:                                             "com.microsoft.VSCode",
+  328:                                             "com.microsoft.VSCode",
+
+.config/nvim/init.lua:
+  648:           --     require('luasnip.loaders.from_vscode').lazy_load()
+
+~/Library/Application Support/Code/User/settings.json:
+  320:     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  324:     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  354:   "[jsonc]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  372:   // >>>>>>>>>>>>>>>>> ADDED BY VSCODE <<<<<<<<<<<<<<<<<<<
+  435:     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  438:     "editor.defaultFormatter": "vscode.typescript-language-features"
+  442:     "editor.defaultFormatter": "esbenp.prettier-vscode"

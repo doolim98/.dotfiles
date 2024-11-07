@@ -27,3 +27,5 @@ PROMPT=$PROMPT'${vcs_info_msg_0_}'
 PROMPT=$PROMPT'%F{cyan}[%3~]%f%B\$%f%b '
 
 [ $TERM = "dumb" ] && unsetopt zle && PS1='$ '
+
+[ -f ~/.zsh/fzf-key-bindings.zsh ] && source ~/.zsh/fzf-key-bindings.zsh
