@@ -9,6 +9,7 @@ if [ ! -d "$HOME/.dotfiles" ]; then
 fi
 
 
+# stow my dotfiles
 stow --adopt .
 
 

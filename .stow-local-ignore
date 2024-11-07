@@ -21,4 +21,5 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
+.vscode
 docs
