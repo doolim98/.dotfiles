@@ -24,6 +24,9 @@ fi
 SNIPPET_INSTALL_MY_BASHRC='source ~/.my.bashrc'
 SNIPPET_INSTALL_MY_ZSHRC='source ~/.my.zshrc'
 
+touch ~/.bashrc
+touch ~/.zshrc
+
 if ! grep -Fxq "$SNIPPET_INSTALL_MY_BASHRC" ~/.bashrc; then
     echo "$SNIPPET_INSTALL_MY_BASHRC" >> ~/.bashrc
 fi

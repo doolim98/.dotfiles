@@ -1,7 +1,7 @@
 source ~/.my.profile
+source <(fzf --zsh)
 
 # Prompt
-# ======
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git svn
 zstyle ':vcs_info:*' formats '%F{yellow}[%b%c]%f'
