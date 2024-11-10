@@ -18,3 +18,8 @@ PROMPT=$PROMPT'${vcs_info_msg_0_}'
 PROMPT=$PROMPT'%F{cyan}[%3~]%f%B\$%f%b '
 
 [ $TERM = "dumb" ] && unsetopt zle && PS1='$ '
+
+
+if command -v starship &>/dev/null; then 
+    eval "$(starship init zsh)"
+fi

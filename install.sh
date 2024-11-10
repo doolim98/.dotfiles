@@ -38,6 +38,8 @@ if [ ! -d "$HOME/.fzf" ]; then
     ~/.fzf/install
 fi
 
+# Install Starship
+curl -sS https://starship.rs/install.sh | sh
 
 # Install .my.bashrc and .my.zshrc
 SNIPPET_INSTALL_MY_BASHRC='source ~/.my.bashrc'
