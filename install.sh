@@ -4,7 +4,6 @@ install_pkg (){
     if command -v brew &>/dev/null; then
         brew install "$1"
     elif command -v apt-get &>/dev/null; then
-        sudo apt-get update
         sudo apt-get install -y "$1"
     elif command -v pacman &>/dev/null; then
         sudo pacman -Syu --noconfirm "$1"
