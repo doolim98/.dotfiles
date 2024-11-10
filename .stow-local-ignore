@@ -24,3 +24,4 @@ _darcs
 .vscode
 docs
 scripts
+*.sh
