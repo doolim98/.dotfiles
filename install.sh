@@ -43,17 +43,6 @@ fi
 )
 
 
-# Install fzf
-if [ ! -d "$HOME/.fzf" ]; then
-    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-    ~/.fzf/install
-fi
-
-# Install Starship
-if ! command -v starship &>/dev/null; then
-    curl -sS https://starship.rs/install.sh | sh
-fi
-
 # Install .my.bashrc and .my.zshrc
 SNIPPET_INSTALL_MY_BASHRC='source ~/.my.bashrc'
 SNIPPET_INSTALL_MY_ZSHRC='source ~/.my.zshrc'
@@ -69,8 +58,22 @@ if ! grep -Fxq "$SNIPPET_INSTALL_MY_ZSHRC" ~/.zshrc; then
     echo "$SNIPPET_INSTALL_MY_ZSHRC" >> ~/.zshrc
 fi
 
-echo ""
-echo ""
-echo "    Installation complete. Please restart your shell. \$SHELL=$SHELL    "
-echo ""
-echo ""
+
+# Install fzf
+if [ ! -d "$HOME/.fzf" ]; then
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
+fi
+
+
+# Install Starship
+if ! command -v starship &>/dev/null; then
+    curl -sS https://starship.rs/install.sh | sh
+fi
+
+
+echo "
+
+.dotfiles: Installation complete. Please restart your shell. Current \$SHELL=$SHELL
+
+"
