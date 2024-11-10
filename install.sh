@@ -16,7 +16,19 @@ install_pkg (){
     fi
 }
 
-# Install stow using OS's package manager
+init_pkg_manager (){
+    if command -v brew &>/dev/null; then
+        brew update
+    elif command -v apt-get &>/dev/null; then
+        sudo apt-get update
+    elif command -v pacman &>/dev/null; then
+        sudo pacman -Syu
+    elif command -v dnf &>/dev/null; then
+        sudo dnf check-update
+    fi
+}
+
+init_pkg_manager
 install_pkg stow
 
 # Install my .dotfiles repository
