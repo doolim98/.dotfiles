@@ -40,3 +40,11 @@ killall Dock
 # Change the tooltip delay to 300ms (Recommended)
 defaults write -g NSInitialToolTipDelay -int 300 
 ```
+
+### Enable key repeat
+
+```bash
+# Restart Application Required
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+```
+
