@@ -33,7 +33,7 @@ fi
 # stow my dotfiles
 (
     cd "$HOME/.dotfiles"
-    stow --adopt .
+    stow --adopt --no-folding .
 )
 
 
