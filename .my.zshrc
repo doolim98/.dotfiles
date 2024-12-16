@@ -24,5 +24,8 @@ if command -v starship &>/dev/null; then
     eval "$(starship init zsh)"
 fi
 
+# Load direnv
+eval "$(direnv hook zsh)"
+
 # Setup Basic Completion (requires `zsh-completions')
 autoload -U compinit && compinit
