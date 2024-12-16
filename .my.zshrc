@@ -23,3 +23,6 @@ PROMPT=$PROMPT'%F{cyan}[%3~]%f%B\$%f%b '
 if command -v starship &>/dev/null; then 
     eval "$(starship init zsh)"
 fi
+
+# Setup Basic Completion (requires `zsh-completions')
+autoload -U compinit && compinit
